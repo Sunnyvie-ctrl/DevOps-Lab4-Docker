@@ -26,7 +26,7 @@ function showError(message) {
   ui.notification.append(retry);
 }
 
-// Render station results based on search term
+// Render station results based on search term from user
 function renderStations() {
   const term = ui.search.value.trim().toLowerCase();
   const result = stations.filter(s => {
